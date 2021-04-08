@@ -50,7 +50,7 @@ public static void printR(Node<Integer> head) {
 	public static void main(String[] args) {
 		Node<Integer> head = takeInput();
 		
-		deleteNode(head,3);
+		head=deleteNode(head,3);
 		printR(head);
 	}
 
